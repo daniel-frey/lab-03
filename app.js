@@ -71,13 +71,6 @@ function questionFive() {
   }
 }
 
-<<<<<<< HEAD
-myStates = ['illinois', 'pennsylvania','new jeresey', 'new york'];
-stateGuesses = 1;
-guessState = prompt('Can you guess where I lived besides Washington?');
-var running = true;
-while (stateGuesses < 7 && running) {
-=======
 function questionSix() {
   myNumber = 31;
   usedGuesses = 0;
@@ -107,7 +100,6 @@ function questionSeven() {
   guessState = prompt('Can you guess where I lived besides Washington?');
   var running = true;
   while (stateGuesses < 7 && running) {
->>>>>>> fdfe689da2651bcf038914cbc323a2ce49704590
   // console.log({guessState});
   // console.log({stateGuesses});
     for (var i = 0; i < myStates.length; i++) {
