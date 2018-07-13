@@ -78,7 +78,7 @@ while (userGuess !== myNumber && usedGuesses !== 4) {
   }
 }
 
-myStates = ['illinois', 'pennsylvania'];
+myStates = ['illinois', 'pennsylvania','new jeresey', 'new york'];
 stateGuesses = 1;
 guessState = prompt('Can you guess where I lived besides Washington?');
 var running = true;
